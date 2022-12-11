@@ -9,7 +9,7 @@ const Treatment = () => {
     <div>
       <h1 class="text-5xl font-bold">Exceptional Dental <br /> Care, on Your Terms</h1>
       <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button class="bg-gradient-to-r from-sky-500 to-indigo-500 text-white rounded uppercase p-3 font-bold">Get Started</button>
+      <button class="bg-gradient-to-r from-sky-500 to-indigo-500 text-white rounded uppercase p-3 font-bold">Get Starte</button>
     </div>
   </div>
 </div>
