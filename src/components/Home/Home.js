@@ -1,21 +1,24 @@
-import React from 'react'
-import Banner from './Banner'
-import Info from './Info'
-import Services from './Services'
-import Treatment from './Treatment'
-
+import React from "react";
+import Banner from "./Banner";
+import Contact from "./Contact";
+import Info from "./Info";
+import MakeAppointment from "./MakeAppointment";
+import Services from "./Services";
+import TestMonial from "./TestMonial";
+import Treatment from "./Treatment";
 
 const Home = () => {
-  
   return (
-    <div className='px-12'>
-    <Banner/>
-    <Info/>
-    <Services/>
-    <Treatment/>
-    
+    <div className="px-14">
+      <Banner />
+      <Info />
+      <Services />
+      <Treatment />
+      <MakeAppointment />
+      <TestMonial />
+      <Contact />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
