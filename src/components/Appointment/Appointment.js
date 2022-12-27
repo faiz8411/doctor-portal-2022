@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useState } from "react";
+import Footer from "../Reiview/Shared/Footer";
+import AppointmentBanner from "./AppointmentBanner";
+import AvailableAppointments from "./AvailableAppointments";
 
 const Appointment = () => {
+  const [date, setDate] = useState(new Date());
   return (
     <div>
-      <h2>this is Appointment</h2>
-    </div>
-  )
-}
+      <AppointmentBanner date={date} setDate={setDate} />
+      <AvailableAppointments date={date} />
 
-export default Appointment
+      <Footer />
+    </div>
+  );
+};
+
+export default Appointment;

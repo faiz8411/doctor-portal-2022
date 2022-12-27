@@ -3,11 +3,10 @@ import "./App.css";
 import About from "./components/About/About";
 import Appointment from "./components/Appointment/Appointment";
 import Contact from "./components/Contact/Contact";
-import Header from "./components/Header";
+import Header from "./components/Reiview/Shared/Header";
 import Home from "./components/Home/Home";
-import Login from "./components/Login";
+import Login from "./components/Reiview/Shared/Login";
 import Reviews from "./components/Reiview/Reviews";
-import Footer from "./components/Reiview/Shared/Footer";
 function App() {
   return (
     <BrowserRouter>
@@ -20,7 +19,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

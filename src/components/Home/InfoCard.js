@@ -4,7 +4,7 @@ const InfoCard = ({ img, bgColor, bgTitle }) => {
   console.log(bgTitle);
 
   return (
-    <div class={`card lg:card-side bg-base-100 shadow-xl ${bgColor}`}>
+    <div class={`card lg:card-side  shadow-xl ${bgColor}`}>
       <figure className="pl-5 pt-4">
         <img src={img} alt="Album" />
       </figure>
